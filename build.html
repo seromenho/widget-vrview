@@ -1,0 +1,8 @@
+<div class="container">
+  {{#if image}}
+    <iframe width="100%" height="300px" allowfullscreen frameborder="0" src="//storage.googleapis.com/vrview/index.html?image={{image}}"></iframe>
+  {{else}}
+    <h3>Image source not set</h3>
+    <p>Try saving your <strong>image</strong> on the left hand side and see what happens!</p>
+  {{/if}}
+</div>

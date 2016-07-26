@@ -1,0 +1,24 @@
+{
+  "name": "vrview",
+  "package": "vrview",
+  "version": "1.0.0",
+  "icon": "img/icon.png",
+  "interface": {
+    "dependencies": [
+      "fliplet-core",
+      "fliplet-studio-ui"
+    ],
+    "assets": [
+      "js/interface.js"
+    ]
+  },
+  "build": {
+    "dependencies": [
+      "jquery",
+      "bootstrap"
+    ],
+    "assets": [
+      "css/build.css"
+    ]
+  }
+}
